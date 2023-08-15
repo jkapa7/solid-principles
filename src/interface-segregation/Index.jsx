@@ -9,7 +9,7 @@ import { PropTypes } from "prop-types";
 
 //EN ESTE CASOM EL COMPONENTE RECIBE UN ITEM, QUE ES UN VIDEO
 //Y AL COMPONENTE THUMBNAIL LE PASO TODO EL OBJETO
-const VideoList = ({ items }) => {
+export const VideoList = ({ items }) => {
   return (
     <ul>
       {items.map((item) => (
